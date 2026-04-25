@@ -1,0 +1,21 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.themoddedcube/pdf-report-generator",
+  "description": "Generate professional PDF reports from LLM output — cover, TOC, tables, charts, 5 themes.",
+  "repository": {
+    "url": "https://github.com/themoddedcube/pdf-report-generator",
+    "source": "github"
+  },
+  "version": "1.0.1",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@ctalasila/pdf-report-generator",
+      "version": "1.0.1",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": []
+    }
+  ]
+}

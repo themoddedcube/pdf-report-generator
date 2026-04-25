@@ -1,6 +1,6 @@
 {
   "name": "@ctalasila/pdf-report-generator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server that generates professional corporate PDF reports from structured content or raw LLM output",
   "type": "module",
   "main": "dist/index.js",
@@ -48,5 +48,6 @@
   ],
   "engines": {
     "node": ">=18"
-  }
+  },
+  "mcpName": "io.github.themoddedcube/pdf-report-generator"
 }
