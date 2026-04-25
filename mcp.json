@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "display_name": "PDF Report Generator",
   "description": "Generate professional corporate PDF reports from structured content or raw LLM output. Replicates a reference PDF's exact style — cover, typography, colors, tables, and charts.",
-  "icon": "https://raw.githubusercontent.com/<your-org>/pdf-report-generator/main/assets/icon.png",
+  "icon": "https://raw.githubusercontent.com/themoddedcube/pdf-report-generator/main/assets/icon.png",
   "categories": ["document", "productivity", "pdf", "report"],
   "tags": ["pdf", "report", "document-generation", "corporate", "charts", "tables"],
   "author": {
@@ -11,9 +11,9 @@
     "email": "",
     "url": ""
   },
-  "repository": "https://github.com/<your-org>/pdf-report-generator",
+  "repository": "https://github.com/themoddedcube/pdf-report-generator",
   "license": "MIT",
-  "homepage": "https://github.com/<your-org>/pdf-report-generator#readme",
+  "homepage": "https://github.com/themoddedcube/pdf-report-generator#readme",
   "runtime": "node",
   "install": {
     "command": "npx",

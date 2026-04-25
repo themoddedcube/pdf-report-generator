@@ -17,11 +17,11 @@
   "author": "",
   "repository": {
     "type": "git",
-    "url": "https://github.com/<your-org>/pdf-report-generator"
+    "url": "https://github.com/themoddedcube/pdf-report-generator"
   },
-  "homepage": "https://github.com/<your-org>/pdf-report-generator#readme",
+  "homepage": "https://github.com/themoddedcube/pdf-report-generator#readme",
   "bugs": {
-    "url": "https://github.com/<your-org>/pdf-report-generator/issues"
+    "url": "https://github.com/themoddedcube/pdf-report-generator/issues"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.12.0",
