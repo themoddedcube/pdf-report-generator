@@ -1,0 +1,10 @@
+node_modules/
+dist/
+*.js.map
+*.d.ts
+.env
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+Thumbs.db

@@ -1,0 +1,44 @@
+{
+  "name": "pdf-report-generator",
+  "version": "1.0.0",
+  "description": "MCP server that generates professional corporate PDF reports from structured content or raw LLM output",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "pdf-report-generator": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "prepare": "npm run build"
+  },
+  "keywords": ["mcp", "pdf", "report", "document", "corporate", "generator", "model-context-protocol"],
+  "license": "MIT",
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/<your-org>/pdf-report-generator"
+  },
+  "homepage": "https://github.com/<your-org>/pdf-report-generator#readme",
+  "bugs": {
+    "url": "https://github.com/<your-org>/pdf-report-generator/issues"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "@types/node": "^20.0.0"
+  },
+  "files": [
+    "dist/",
+    "scripts/",
+    "mcp.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}

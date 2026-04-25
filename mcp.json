@@ -1,0 +1,40 @@
+{
+  "name": "pdf-report-generator",
+  "version": "1.0.0",
+  "display_name": "PDF Report Generator",
+  "description": "Generate professional corporate PDF reports from structured content or raw LLM output. Replicates a reference PDF's exact style — cover, typography, colors, tables, and charts.",
+  "icon": "https://raw.githubusercontent.com/<your-org>/pdf-report-generator/main/assets/icon.png",
+  "categories": ["document", "productivity", "pdf", "report"],
+  "tags": ["pdf", "report", "document-generation", "corporate", "charts", "tables"],
+  "author": {
+    "name": "",
+    "email": "",
+    "url": ""
+  },
+  "repository": "https://github.com/<your-org>/pdf-report-generator",
+  "license": "MIT",
+  "homepage": "https://github.com/<your-org>/pdf-report-generator#readme",
+  "runtime": "node",
+  "install": {
+    "command": "npx",
+    "args": ["-y", "pdf-report-generator"]
+  },
+  "tools": [
+    {
+      "name": "generate_report",
+      "description": "Generate a professional PDF report from a structured JSON spec (metadata, sections, tables, charts, images)."
+    },
+    {
+      "name": "generate_report_from_text",
+      "description": "Convert raw text or LLM chat output into a structured PDF report automatically."
+    },
+    {
+      "name": "list_themes",
+      "description": "List available color themes for PDF reports."
+    }
+  ],
+  "prerequisites": [
+    "Python 3.8+",
+    "pip install reportlab matplotlib"
+  ]
+}
