@@ -1,5 +1,5 @@
 {
-  "name": "pdf-report-generator",
+  "name": "@ctalasila/pdf-report-generator",
   "version": "1.0.0",
   "display_name": "PDF Report Generator",
   "description": "Generate professional corporate PDF reports from structured content or raw LLM output. Replicates a reference PDF's exact style — cover, typography, colors, tables, and charts.",
@@ -17,7 +17,7 @@
   "runtime": "node",
   "install": {
     "command": "npx",
-    "args": ["-y", "pdf-report-generator"]
+    "args": ["-y", "@ctalasila/pdf-report-generator"]
   },
   "tools": [
     {

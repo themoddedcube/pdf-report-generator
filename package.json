@@ -1,5 +1,5 @@
 {
-  "name": "pdf-report-generator",
+  "name": "@ctalasila/pdf-report-generator",
   "version": "1.0.0",
   "description": "MCP server that generates professional corporate PDF reports from structured content or raw LLM output",
   "type": "module",
@@ -12,7 +12,15 @@
     "start": "node dist/index.js",
     "prepare": "npm run build"
   },
-  "keywords": ["mcp", "pdf", "report", "document", "corporate", "generator", "model-context-protocol"],
+  "keywords": [
+    "mcp",
+    "pdf",
+    "report",
+    "document",
+    "corporate",
+    "generator",
+    "model-context-protocol"
+  ],
   "license": "MIT",
   "author": "",
   "repository": {
@@ -28,8 +36,8 @@
     "zod": "^3.23.0"
   },
   "devDependencies": {
-    "typescript": "^5.5.0",
-    "@types/node": "^20.0.0"
+    "@types/node": "^20.0.0",
+    "typescript": "^5.5.0"
   },
   "files": [
     "dist/",
